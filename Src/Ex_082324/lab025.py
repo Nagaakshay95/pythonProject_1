@@ -11,7 +11,7 @@ l3 = float(input("enter the length3:\n"))
 
 if l1 == l2 and l1 == l3 and l2 == l3:
     print("your entered value is equilateral triangle")
-elif l1 == l2:
+elif l1 == l2 or l1 == l3 or l2 == l3:
     print("your entered value is isosceles triangle")
 else:
     print("your entered value is scalene triangle")
